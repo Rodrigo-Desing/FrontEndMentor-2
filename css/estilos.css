@@ -98,10 +98,38 @@ body{
 
 /*                SECTION WELCOME             */
 
+/*                SECTION SERVICES             */
+.services{
+	padding: 5%;
+}
+.services__title{
+	font-size: 50px;
+	font-family: var(--DM);
+	border-top-color: var(--Dark_Violet);
+}
+.services__box-cards{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	overflow: hidden;
+}
+.services__card{
+	width: 30%;
+}
+.services__card-title{
+	font-family: var(--DM);
+	color: var(--Dark_Violet);
+	font-size: 30px;
+}
+.services__card-text{
+	line-height: 30px;
+	color: var(--Dark_Grayish_Violet);
+	font-weight: 700;
+	font-size: 18px;
 
+}
 
-
-
+/*                SECTION SERVICES             */
 
 
 
