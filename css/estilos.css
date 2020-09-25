@@ -1,2 +1,73 @@
+:root{
+	--Dark_Violet: hsl(256, 26%, 20%);
+	--Grayish_Blue: hsl(216, 30%, 68%);
+
+
+	--Very_Dark_Violet: hsl(270, 9%, 17%);
+	--Dark_Grayish_Violet: hsl(273, 4%, 51%);
+	--Very_Light_Gray: hsl(0, 0%, 98%);
+
+
+	--DM:'DM Serif Display', serif;
+	--KARLA:'Karla', sans-serif;
+}
+body{
+	font-family: var(--KARLA);
+}
+/*               Reutilizables              */
+.btn-special{
+	padding: 10px 20px;
+	background: none;
+	border: 2px solid var(--Dark_Violet);
+	color: var(--Dark_Violet);
+	font-weight: bold;
+	cursor: pointer;
+	transition: all ease 1s;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.btn-special:hover{
+	background: var(--Dark_Violet);
+	color: var(--Very_Light_Gray);
+}
+/*               Reutilizables              */
+
+/*                HEADER             */
+.hero{
+	background: #fff;
+	height: 80px;
+
+
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.main-menu__link{
+	text-decoration: none;
+	padding: 10px 20px;
+	color: var(--Dark_Grayish_Violet);
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.main-menu__link:hover,
+.main-menu__link--active{
+	color: var(--Dark_Violet)
+}
+ /*                HEADER             */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  .attribution { font-size: 11px; text-align: center; }
  .attribution a { color: hsl(228, 45%, 44%); }
